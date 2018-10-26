@@ -1,0 +1,39 @@
+img {
+    width: 100%;
+    height: auto;
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    box-shadow: 5px 5px 5px #888;
+}
+h1 {
+color: rgba(172, 41, 165, 0.8);
+text-align: centre;
+font-size: 3em;
+font-family: "domine", serif;
+}
+
+#scientific {
+font-size: 50%;
+display:block;
+
+}
+
+h2 {
+color: rgb(153, 122, 20);
+font-family: Verdana, Geneva, Tahoma, sans-serif
+
+} 
+body {
+background-color:antiquewhite;
+width:90%;
+margin: auto;
+}
+
+
+@media screen and (min-width: 800px) {
+    img {
+        width : 45%;
+        height: auto;
+        margin-right: 2%;
+    }
+}
